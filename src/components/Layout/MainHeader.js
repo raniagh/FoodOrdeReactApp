@@ -6,7 +6,7 @@ import HeaderCartButton from "./HeaderCartButton";
 const MainHeader = (props) => {
   return (
     <>
-      <header className={classes["main-header"]}>
+      <header className={classes.header}>
         <h1>ReactMeals</h1>
         <HeaderCartButton onClick={props.onCartOpen} />
       </header>
