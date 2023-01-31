@@ -52,6 +52,7 @@ const Cart = (props) => {
     //waiting the save complete and change isSubmitting status
     setIsSubmitting(false);
     setDidSubmit(true);
+    cartCtx.clearCart();
   };
   const modalActions = (
     <div className={classes.actions}>
